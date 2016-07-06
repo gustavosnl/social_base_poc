@@ -1,9 +1,11 @@
 package com.glima.socialbasepoc.model;
 
+import java.io.Serializable;
+
 /**
  * Created by gustavo on 05/07/16.
  */
-public class Images {
+public class Images implements Serializable {
 
     private String thumbnail;
     private String logo;

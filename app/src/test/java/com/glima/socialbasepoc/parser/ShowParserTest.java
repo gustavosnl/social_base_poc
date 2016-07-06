@@ -25,7 +25,7 @@ public class ShowParserTest {
 
     final String DESCRIPTION = "An anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law.";
     final String THUMBNAIL = "https://walter.trakt.us/images/shows/000/046/375/thumbs/original/452a9b5dbe.jpg";
-    final String LOGO = "https://walter.trakt.us/images/shows/000/046/375/logos/original/ef4294f39a.png";
+    final String LOGO = "https://walter.trakt.us/images/shows/000/046/375/cleararts/original/5b03f00b28.png";
 
     List<Show> shows;
 

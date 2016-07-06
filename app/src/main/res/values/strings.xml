@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">SocialBasePOC</string>
     <string name="error_loading_shows">Houve um erro ao carregar os programas de TV :(</string>
+
+    <string name="label_description">Descri\u00E7\u00E3o</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="total_episodes">Total de epis\u00f3dios: %s</string>
+    <string name="launch_year">Ano de lan\u00E7amento: %s</string>
+
 </resources>

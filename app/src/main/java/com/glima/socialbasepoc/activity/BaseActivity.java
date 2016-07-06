@@ -16,7 +16,13 @@ public abstract class BaseActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         viewDataBinding = DataBindingUtil.setContentView(this, getLayout());
+        setupToolbar();
+        init();
     }
+
+    protected abstract void init();
+
+    protected abstract void setupToolbar();
 
     public abstract int getLayout();
 }
