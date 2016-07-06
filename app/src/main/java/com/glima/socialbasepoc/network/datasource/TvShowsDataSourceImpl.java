@@ -53,7 +53,7 @@ public class TvShowsDataSourceImpl extends BaseDataSource implements TvShowsData
     }
 
     public Observable<List<Show>> getNext() {
-        return getPaged(PAGE++);
+        return getPaged(++PAGE);
     }
 
     private Observable<List<Show>> getPaged(final Integer page) {

@@ -14,4 +14,6 @@ public interface TvShowsDataSource {
     Observable<Show> getShowInfo(String showId);
 
     Observable<List<Show>> listPopularShows();
+
+    Observable<List<Show>> getNext();
 }
