@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SocialBasePOC</string>
+    <string name="error_loading_shows">Houve um erro ao carregar os programas de TV :(</string>
 </resources>

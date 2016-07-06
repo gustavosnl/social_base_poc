@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="api_giant_bomb">http://www.giantbomb.com/api/</string>
+    <string name="api_trakt">https://api.trakt.tv/</string>
 </resources>

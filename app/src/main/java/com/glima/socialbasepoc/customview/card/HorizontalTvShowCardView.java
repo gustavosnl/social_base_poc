@@ -7,13 +7,13 @@ import android.util.AttributeSet;
 /**
  * Created by gustavo on 05/07/16.
  */
-public class HorizontalGameCardView extends CardView {
+public class HorizontalTvShowCardView extends CardView {
 
-    public HorizontalGameCardView(Context context) {
+    public HorizontalTvShowCardView(Context context) {
         super(context);
     }
 
-    public HorizontalGameCardView(Context context, AttributeSet attrs) {
+    public HorizontalTvShowCardView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 }
