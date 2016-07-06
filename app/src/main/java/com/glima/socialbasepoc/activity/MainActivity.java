@@ -38,11 +38,6 @@ public class MainActivity extends BaseActivity implements Observer<List<Show>> {
 
     private TvShowsDataSource tvShowsDataSource;
 
-    @Override
-    protected void setupToolbar() {
-        Toolbar toolbar = ((ActivityMainBinding) viewDataBinding).includeToolbar.toolbar;
-        setSupportActionBar(toolbar);
-    }
 
     @Override
     protected void init() {
@@ -72,26 +67,15 @@ public class MainActivity extends BaseActivity implements Observer<List<Show>> {
                 });
     }
 
-    private void setupScrollListener() {
-        scrollListener.getScrollFinishedObservable()
-                .flatMap(new Func1<Boolean, Observable<List<Show>>>() {
-                    @Override
-                    public Observable<List<Show>> call(Boolean scrollFinished) {
-                        if (scrollFinished) {
-                            return tvShowsDataSource
-                                    .getNext()
-                                    .subscribeOn(Schedulers.io());
-                        }
-                        return Observable.empty();
-                    }
-                })
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(this);
-    }
-
     @Override
     public int getLayout() {
         return R.layout.activity_main;
+    }
+
+    @Override
+    protected void setupToolbar() {
+        Toolbar toolbar = ((ActivityMainBinding) viewDataBinding).includeToolbar.toolbar;
+        setSupportActionBar(toolbar);
     }
 
     @Override
@@ -109,5 +93,22 @@ public class MainActivity extends BaseActivity implements Observer<List<Show>> {
     @Override
     public void onNext(List<Show> shows) {
         ((TvShowsAdapter) recyclerView.getAdapter()).attachViewModel(new TvShowListViewModel(shows));
+    }
+
+    private void setupScrollListener() {
+        scrollListener.getScrollFinishedObservable()
+                .flatMap(new Func1<Boolean, Observable<List<Show>>>() {
+                    @Override
+                    public Observable<List<Show>> call(Boolean scrollFinished) {
+                        if (scrollFinished) {
+                            return tvShowsDataSource
+                                    .getNext()
+                                    .subscribeOn(Schedulers.io());
+                        }
+                        return Observable.empty();
+                    }
+                })
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(this);
     }
 }

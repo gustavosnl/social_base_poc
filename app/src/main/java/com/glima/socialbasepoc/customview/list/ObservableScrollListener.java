@@ -9,15 +9,13 @@ import rx.subjects.PublishSubject;
 /**
  * Created by gustavo on 06/07/16.
  */
-public class ObservableScrollListener extends RecyclerView.OnScrollListener{
+public class ObservableScrollListener extends RecyclerView.OnScrollListener {
 
-    private Boolean isLoading = true;
     private PublishSubject<Boolean> scrollFinishedPublishSubject = PublishSubject.create();
 
     @Override
     public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
         super.onScrolled(recyclerView, dx, dy);
-        isLoading = true;
         GridLayoutManager layoutManager = (GridLayoutManager) recyclerView.getLayoutManager();
 
         if (dy > 0) {
@@ -25,11 +23,8 @@ public class ObservableScrollListener extends RecyclerView.OnScrollListener{
             int totalItemCount = layoutManager.getItemCount();
             int pastVisibleItems = layoutManager.findFirstCompletelyVisibleItemPosition();
 
-            if (isLoading) {
-                if ((visibleItemCount + pastVisibleItems) >= totalItemCount) {
-                    scrollFinishedPublishSubject.onNext(true);
-                    isLoading = false;
-                }
+            if ((visibleItemCount + pastVisibleItems) >= totalItemCount) {
+                scrollFinishedPublishSubject.onNext(true);
             }
         }
     }
