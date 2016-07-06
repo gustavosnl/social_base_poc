@@ -16,13 +16,12 @@ import java.util.List;
  */
 public class ShowParser {
 
-    List<Show> shows = new ArrayList<>();
-
     public List<Show> parse(InputStream inputStream) throws IOException {
 
-        JsonNode rootNode = new ObjectMapper().readTree(inputStream);
+        ObjectMapper mapper = new ObjectMapper();
+        JsonNode rootNode = mapper.readTree(inputStream);
 
-        if (rootNode.isArray()) {
+        List<Show> shows = new ArrayList<>();
             for (JsonNode showNode : rootNode) {
                 Show show = new Show(
                         showNode.at("/ids/trakt").asText(),
@@ -33,7 +32,7 @@ public class ShowParser {
                         getGenres(showNode.at("/genres")),
                         getImages(showNode.at("/images")));
                 shows.add(show);
-            }
+
         }
         return shows;
     }

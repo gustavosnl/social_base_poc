@@ -3,6 +3,7 @@ package com.glima.socialbasepoc.network.service;
 import android.content.Context;
 
 import com.glima.socialbasepoc.R;
+import com.glima.socialbasepoc.network.StringConverterFactory;
 
 import java.io.IOException;
 
@@ -13,7 +14,6 @@ import okhttp3.Response;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
-import retrofit2.converter.jackson.JacksonConverterFactory;
 
 /**
  * Created by gustavo on 04/07/16.
@@ -33,7 +33,7 @@ public class BaseDataSource {
         retrofit = new Retrofit.Builder()
                 .baseUrl(context.getString(baseUrlResourceId))
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
-                .addConverterFactory(JacksonConverterFactory.create())
+                .addConverterFactory(StringConverterFactory.create())
                 .client(setupClient())
                 .build();
     }
