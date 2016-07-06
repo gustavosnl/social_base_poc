@@ -16,7 +16,6 @@ import java.util.List;
 
 import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
-import rx.functions.Action1;
 
 import static android.support.v7.widget.LinearLayoutManager.VERTICAL;
 
@@ -39,21 +38,11 @@ public class MainActivity extends BaseActivity implements Observer<List<Show>> {
 
         recyclerView = ((ActivityMainBinding) viewDataBinding).showsList;
         recyclerView.setLayoutManager(new LinearLayoutManager(this, VERTICAL, false));
-        recyclerView.setAdapter(new TvShowsAdapter());
+        recyclerView.setAdapter(new TvShowsAdapter(this));
 
         tvShowsDataSource.listPopularShows()
-                .subscribeOn(AndroidSchedulers.mainThread())
-                .subscribe(new Action1<List<Show>>() {
-                    @Override
-                    public void call(List<Show> shows) {
-                        System.out.println("alo alo graças a Deus");
-                    }
-                }, new Action1<Throwable>() {
-                    @Override
-                    public void call(Throwable throwable) {
-                        Log.d("error",throwable.getMessage());
-                    }
-                });
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(this);
     }
 
     @Override

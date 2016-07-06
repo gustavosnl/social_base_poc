@@ -8,7 +8,6 @@ public class Images {
     private String thumbnail;
     private String logo;
 
-
     public Images(String thumbnail, String logo) {
         this.thumbnail = thumbnail;
         this.logo = logo;

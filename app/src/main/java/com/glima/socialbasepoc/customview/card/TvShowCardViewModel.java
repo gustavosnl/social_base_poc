@@ -1,6 +1,7 @@
 package com.glima.socialbasepoc.customview.card;
 
 import android.databinding.BaseObservable;
+import android.databinding.Bindable;
 
 import com.glima.socialbasepoc.model.Show;
 
@@ -15,5 +16,9 @@ public class TvShowCardViewModel extends BaseObservable {
         this.show = show;
     }
 
+    @Bindable
+    public String getTitle() {
+        return show.getTitle();
+    }
 
 }

@@ -1,6 +1,7 @@
 package com.glima.socialbasepoc.network.datasource;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.glima.socialbasepoc.R;
 import com.glima.socialbasepoc.model.Show;
@@ -43,8 +44,8 @@ public class TvShowsDataSourceImpl extends BaseDataSource implements TvShowsData
             public List<Show> call(Response<String> response) {
                 try {
                     return new ShowParser().parse(new ByteArrayInputStream(response.body().getBytes()));
-                } catch (IOException e) {
-                    e.printStackTrace();
+                } catch (Exception e) {
+                    Log.d("PARSE ERROR", e.getMessage());
                     return new ArrayList<>();
                 }
             }

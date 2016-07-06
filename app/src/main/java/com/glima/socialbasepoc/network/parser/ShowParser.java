@@ -32,7 +32,6 @@ public class ShowParser {
                         getGenres(showNode.at("/genres")),
                         getImages(showNode.at("/images")));
                 shows.add(show);
-
         }
         return shows;
     }
