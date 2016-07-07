@@ -33,11 +33,6 @@ public class TvShowsDataSourceImpl extends BaseDataSource implements TvShowsData
     }
 
     @Override
-    public Observable<Show> getShowInfo(String showId) {
-        return null;
-    }
-
-    @Override
     public Observable<List<Show>> listPopularShows() {
         return showsClient.getPopularShows(1, 20).subscribeOn(Schedulers.io()).map(new Func1<Response<String>, List<Show>>() {
             @Override

@@ -21,15 +21,15 @@ public class ShowParser {
         JsonNode rootNode = mapper.readTree(inputStream);
 
         List<Show> shows = new ArrayList<>();
-            for (JsonNode showNode : rootNode) {
-                Show show = new Show(
-                        showNode.at("/ids/trakt").asText(),
-                        showNode.at("/title").asText(),
-                        showNode.at("/year").asText(),
-                        showNode.at("/overview").asText(),
-                        showNode.at("/aired_episodes").asInt(),
-                        getImages(showNode.at("/images")));
-                shows.add(show);
+        for (JsonNode showNode : rootNode) {
+            Show show = new Show(
+                    showNode.at("/ids/trakt").asText(),
+                    showNode.at("/title").asText(),
+                    showNode.at("/year").asText(),
+                    showNode.at("/overview").asText(),
+                    showNode.at("/aired_episodes").asInt(),
+                    getImages(showNode.at("/images")));
+            shows.add(show);
         }
         return shows;
     }

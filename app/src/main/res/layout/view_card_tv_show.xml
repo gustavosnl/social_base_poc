@@ -8,7 +8,6 @@
         <variable
             name="tvShow"
             type="com.glima.socialbasepoc.customview.card.TvShowViewModel" />
-
     </data>
 
     <android.support.v7.widget.CardView
@@ -34,13 +33,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/show_thumbnail"
-                android:text="@{tvShow.title}"
-                android:maxLines="2"
                 android:ellipsize="end"
-                android:textSize="16sp"
+                android:maxLines="2"
                 android:padding="4dp"
+                android:text="@{tvShow.title}"
+                android:textSize="16sp"
                 tools:text="Breaking Bad" />
         </RelativeLayout>
+
     </android.support.v7.widget.CardView>
 
 </layout>

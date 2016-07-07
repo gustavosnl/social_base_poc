@@ -15,7 +15,6 @@ public class TvShowInfoActivity extends BaseActivity {
     private TvShowViewModel viewModel;
 
     public static Intent newIntent(Context context, TvShowViewModel show) {
-
         Intent intent = new Intent(context, TvShowInfoActivity.class);
         Bundle bundle = new Bundle();
         bundle.putSerializable(BUNDLE_KEY_SHOW, show);
@@ -33,7 +32,6 @@ public class TvShowInfoActivity extends BaseActivity {
 
     @Override
     protected void init() {
-
     }
 
     @Override

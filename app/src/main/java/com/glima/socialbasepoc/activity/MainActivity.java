@@ -38,7 +38,6 @@ public class MainActivity extends BaseActivity implements Observer<List<Show>> {
 
     private TvShowsDataSource tvShowsDataSource;
 
-
     @Override
     protected void init() {
         tvShowsDataSource = new TvShowsDataSourceImpl(this);
