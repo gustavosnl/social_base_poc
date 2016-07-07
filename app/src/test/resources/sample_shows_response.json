@@ -1,0 +1,258 @@
+[
+  {
+    "title": "True Detective",
+    "year": 2014,
+    "ids": {
+      "trakt": 46375,
+      "slug": "true-detective",
+      "tvdb": 270633,
+      "imdb": "tt2356777",
+      "tmdb": 46648,
+      "tvrage": 31369
+    },
+    "overview": "An anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law.",
+    "first_aired": "2014-01-12T08:00:00.000Z",
+    "airs": {
+      "day": "Sunday",
+      "time": "21:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 60,
+    "certification": "TV-MA",
+    "network": "HBO",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=TXwCoNwBSkQ",
+    "homepage": "http://www.hbo.com/true-detective",
+    "status": "returning series",
+    "rating": 8.86065,
+    "votes": 11798,
+    "updated_at": "2016-06-30T09:45:51.000Z",
+    "language": "en",
+    "available_translations": [
+      "fr",
+      "en",
+      "bg",
+      "pt",
+      "nl",
+      "pl",
+      "de",
+      "el",
+      "da",
+      "tr",
+      "es",
+      "zh",
+      "cs",
+      "hu",
+      "it",
+      "ru",
+      "sv",
+      "ro",
+      "hr",
+      "bs",
+      "sl",
+      "vi",
+      "az",
+      "he",
+      "fi",
+      "uk"
+    ],
+    "genres": [
+      "drama",
+      "crime",
+      "mystery"
+    ],
+    "aired_episodes": 16,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/046/375/fanarts/original/f8c6f152b2.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/046/375/fanarts/medium/f8c6f152b2.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/046/375/fanarts/thumb/f8c6f152b2.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/046/375/posters/original/2cafba378c.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/046/375/posters/medium/2cafba378c.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/046/375/posters/thumb/2cafba378c.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/046/375/logos/original/ef4294f39a.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/046/375/cleararts/original/5b03f00b28.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/046/375/banners/original/5ece5ac01a.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/046/375/thumbs/original/452a9b5dbe.jpg"
+      }
+    }
+  },
+  {
+    "title": "Marvel's Agents of S.H.I.E.L.D.",
+    "year": 2013,
+    "ids": {
+      "trakt": 1394,
+      "slug": "marvel-s-agents-of-s-h-i-e-l-d",
+      "tvdb": 263365,
+      "imdb": "tt2364582",
+      "tmdb": 1403,
+      "tvrage": 32656
+    },
+    "overview": "Phil Coulson (Clark Gregg, reprising his role from \"The Avengers\" and \"Iron Man\" ) heads an elite team of fellow agents with the worldwide law-enforcement organization known as SHIELD (Strategic Homeland Intervention Enforcement and Logistics Division), as they investigate strange occurrences around the globe. Its members -- each of whom brings a specialty to the group -- work with Coulson to protect those who cannot protect themselves from extraordinary and inconceivable threats, including a formidable group known as Hydra.",
+    "first_aired": "2013-09-24T07:00:00.000Z",
+    "airs": {
+      "day": "Tuesday",
+      "time": "21:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 45,
+    "certification": "TV-PG",
+    "network": "ABC (US)",
+    "country": "us",
+    "trailer": "http://youtube.com/watch?v=T3T-evQZiQo",
+    "homepage": "http://www.agentsofshield.com/",
+    "status": "returning series",
+    "rating": 7.84761,
+    "votes": 12120,
+    "updated_at": "2016-07-05T11:10:30.000Z",
+    "language": "en",
+    "available_translations": [
+      "en",
+      "es",
+      "de",
+      "ru",
+      "hu",
+      "pl",
+      "bg",
+      "pt",
+      "el",
+      "it",
+      "ko",
+      "nl",
+      "fr",
+      "zh",
+      "tr",
+      "sv",
+      "lt",
+      "cs",
+      "hr",
+      "bs",
+      "da",
+      "he",
+      "ro",
+      "id",
+      "ms",
+      "uk",
+      "ml",
+      "lb"
+    ],
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "science-fiction"
+    ],
+    "aired_episodes": 66,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/394/fanarts/original/2cc61c8eea.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/394/fanarts/medium/2cc61c8eea.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/394/fanarts/thumb/2cc61c8eea.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/001/394/posters/original/c4a4211e12.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/001/394/posters/medium/c4a4211e12.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/001/394/posters/thumb/c4a4211e12.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/001/394/logos/original/2203dce644.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/001/394/cleararts/original/a384583c46.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/001/394/banners/original/e5abcfc0f9.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/001/394/thumbs/original/e0effa907b.jpg"
+      }
+    }
+  },
+  {
+    "title": "Community",
+    "year": 2009,
+    "ids": {
+      "trakt": 18265,
+      "slug": "community",
+      "tvdb": 94571,
+      "imdb": "tt1439629",
+      "tmdb": 18347,
+      "tvrage": 22589
+    },
+    "overview": "From Emmy Award-winner Dan Harmon comes \"Community\", a smart comedy series about higher education – and lower expectations. The student body at Greendale Community College is made up of high-school losers, newly divorced housewives, and old people who want to keep their minds active. Within these not-so-hallowed halls, Community focuses on a band of misfits, at the center of which is a fast-talking lawyer whose degree was found to be fake, who form a study group and end up learning a lot more about themselves than they do about their course work.",
+    "first_aired": "2009-09-17T07:00:00.000Z",
+    "airs": {
+      "day": "Tuesday",
+      "time": "03:00",
+      "timezone": "America/New_York"
+    },
+    "runtime": 25,
+    "certification": "TV-PG",
+    "network": "Yahoo! Screen",
+    "country": "us",
+    "trailer": null,
+    "homepage": "http://www.nbc.com/community-show/",
+    "status": "ended",
+    "rating": 8.60297,
+    "votes": 11503,
+    "updated_at": "2016-06-17T10:33:57.000Z",
+    "language": "en",
+    "available_translations": [
+      "en",
+      "pt",
+      "es",
+      "ru",
+      "it",
+      "fr",
+      "de",
+      "hu",
+      "ro",
+      "zh",
+      "nl",
+      "hr",
+      "bs",
+      "pl",
+      "da",
+      "el"
+    ],
+    "genres": [
+      "comedy"
+    ],
+    "aired_episodes": 110,
+    "images": {
+      "fanart": {
+        "full": "https://walter.trakt.us/images/shows/000/018/265/fanarts/original/9c0a79d9e6.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/018/265/fanarts/medium/9c0a79d9e6.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/018/265/fanarts/thumb/9c0a79d9e6.jpg"
+      },
+      "poster": {
+        "full": "https://walter.trakt.us/images/shows/000/018/265/posters/original/45b7f2b304.jpg",
+        "medium": "https://walter.trakt.us/images/shows/000/018/265/posters/medium/45b7f2b304.jpg",
+        "thumb": "https://walter.trakt.us/images/shows/000/018/265/posters/thumb/45b7f2b304.jpg"
+      },
+      "logo": {
+        "full": "https://walter.trakt.us/images/shows/000/018/265/logos/original/e38df5d341.png"
+      },
+      "clearart": {
+        "full": "https://walter.trakt.us/images/shows/000/018/265/cleararts/original/3511d8ea93.png"
+      },
+      "banner": {
+        "full": "https://walter.trakt.us/images/shows/000/018/265/banners/original/029a77d046.jpg"
+      },
+      "thumb": {
+        "full": "https://walter.trakt.us/images/shows/000/018/265/thumbs/original/a664fe8b47.jpg"
+      }
+    }
+  }
+]
